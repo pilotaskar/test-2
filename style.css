@@ -1,0 +1,47 @@
+header {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 1rem;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    gap: 10px;
+}
+
+.section-right {
+    display: flex;
+    gap: 15px;
+}
+
+.container-item {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+.section-left, .section-right {
+    width: 45%;
+}
